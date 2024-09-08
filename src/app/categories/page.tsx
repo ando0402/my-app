@@ -13,7 +13,7 @@ export default function Page(){
                     <Link href="categories/animal">動物</Link>
                 </li>
                 <li>
-                    <Link href="categories/animal">風景</Link>
+                    <Link href="categories/landscape">風景</Link>
                 </li>
             </ul>
         </div>
