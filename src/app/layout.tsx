@@ -31,7 +31,8 @@ export default function RootLayout({
       >
         {children}
 
-      <div className={StyleSheet.container}>
+      {/* <div className={StyleSheet.container}> */}
+      <div>
         <header />
           <div className="{styles.content}">
            <nav />
