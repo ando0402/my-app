@@ -1,5 +1,12 @@
+"use client";
+
 import Link from "next/link";
+import {usePathname} from "next/navigation"
 import style from "./style.module.css";
+
+function getAriaCurrent(flag: boolean){
+    return flag ? {"aria-current": "page" as const} :undefined
+}
 
 export function Nav() {
     return(
